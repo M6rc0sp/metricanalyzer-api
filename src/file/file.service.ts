@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+import { Express } from 'express';
 import * as XLSX from 'xlsx';
 import * as fastcsv from 'fast-csv';
 import { Readable } from 'stream';
